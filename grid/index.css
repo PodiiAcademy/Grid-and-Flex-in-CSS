@@ -1,0 +1,31 @@
+html {
+    background: darkred;
+    font-family: 'Avenir'
+}
+
+.gridContainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+        'header header header' 
+        'main section sidebar' 
+        'footer footer sidebar';
+    grid-template-rows: 32vh 32vh 32vh;
+    /* grid-template-columns: 32vw 32vw 32vw; */
+    /* grid-column-gap: 30px; */
+    /* grid-row-gap: 40px; */
+}
+
+header { grid-area: header; }
+main { grid-area: main; color: white;}
+footer { grid-area: footer; color: white;}
+sidebar { grid-area: sidebar; color: white}
+section { grid-area: section; color: white}
+
+.box {
+    color: darkred;
+    background: rgb(233, 233, 233);
+    text-align: center;
+    padding: 2em 1em;
+}
+
