@@ -16,12 +16,13 @@ Code is not 100% clean, intention was to compare the experience of building HTML
 
 ### How to contribute
 
+```
   Fork it
   Create your feature branch (git checkout -b my-new-feature)
   Commit your changes (git commit -am 'add some feature')
   Push to the branch (git push origin my-new-feature)
   Create a new pull request
   I will review and merge if its good
-
+```
 
 
